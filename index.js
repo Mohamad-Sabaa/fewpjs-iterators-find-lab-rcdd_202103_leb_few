@@ -6,6 +6,6 @@ function testFunc() {
 
 
 function superbowlWin(record) {
-    let winner = record.find(superbowl => superbowl.result === "W");
+    let winner = record.find(w => w.result === "W");
      return result ? result.year : undefined
 }
